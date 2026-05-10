@@ -46,7 +46,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
@@ -99,7 +99,7 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
    ========================================= */
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1536px;
   margin: 0 auto;
   padding: 0 40px;
 }
