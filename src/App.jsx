@@ -25,6 +25,9 @@ import './App.css';
 gsap.registerPlugin(ScrollTrigger);
 
 // Configure ScrollTrigger defaults
+ScrollTrigger.config({
+  ignoreMobileResize: true,
+});
 ScrollTrigger.defaults({
   markers: false,
 });
