@@ -1,0 +1,48 @@
+/* App-level styles */
+.site {
+  transition: opacity 0.3s ease;
+}
+
+.site--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.site--visible {
+  opacity: 1;
+}
+
+/* Section spacing utility */
+.section {
+  position: relative;
+}
+
+/* Back to top button */
+.back-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-black);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 500;
+  box-shadow: 0 8px 24px rgba(200, 241, 53, 0.4);
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.back-top:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(200, 241, 53, 0.5);
+}
+
+@media (max-width: 768px) {
+  .back-top { bottom: 20px; right: 20px; width: 42px; height: 42px; }
+}
