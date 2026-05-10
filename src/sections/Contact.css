@@ -317,4 +317,12 @@
   .contact__form-row { grid-template-columns: 1fr; }
   .contact__banner { padding: 48px 0; }
   .contact__banner-inner { flex-direction: column; align-items: flex-start; }
+  .contact__email-link {
+    font-size: 0.85rem;
+    padding: 12px 20px;
+    white-space: normal;
+    word-break: break-all;
+    width: 100%;
+    justify-content: center;
+  }
 }
