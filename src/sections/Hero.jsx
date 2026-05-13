@@ -157,8 +157,8 @@ const Hero = () => {
             />
             {/* Floating tag */}
             <div className="hero__float-tag hero__float-tag--1">
-              <span className="hero__float-icon">🛒</span>
-              <span>WooCommerce Expert</span>
+              <span className="hero__float-icon">🧩</span>
+              <span>WordPress Developer</span>
             </div>
             <div className="hero__float-tag hero__float-tag--2">
               <span className="hero__float-icon">🎨</span>
